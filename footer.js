@@ -52,22 +52,13 @@ document.write(`<div class="footer-area" data-cue="zoomIn">
 						</div>
 						<div class="footer-widget-gallery">
 							<a class="place venobox vbox-item" data-gall="lace-imgs"
-								href="assets/images/home-1/gallery-1.jpg"><img src="assets/images/home-1/gallery-1.jpg"
+								href="assets/images/home-1/DSC_4727 Medium Small.jpeg"><img src="assets/images/home-1/DSC_4727 Medium Small.jpeg"
 									alt=""></a>
 							<a class="place venobox vbox-item" data-gall="lace-imgs"
-								href="assets/images/home-1/gallery-2.jpg"><img src="assets/images/home-1/gallery-2.jpg"
+								href="assets/images/Suite Room/DSC_4729 Small.jpeg"><img src="assets/images/Suite Room/DSC_4729 Small.jpeg"
 									alt=""></a>
 							<a class="place venobox vbox-item" data-gall="lace-imgs"
-								href="assets/images/home-1/gallery-3.jpg"><img src="assets/images/home-1/gallery-3.jpg"
-									alt=""></a>
-							<a class="place venobox vbox-item" data-gall="lace-imgs"
-								href="assets/images/home-1/gallery-4.jpg"><img src="assets/images/home-1/gallery-4.jpg"
-									alt=""></a>
-							<a class="place venobox vbox-item" data-gall="lace-imgs"
-								href="assets/images/home-1/gallery-5.jpg"><img src="assets/images/home-1/gallery-5.jpg"
-									alt=""></a>
-							<a class="place venobox vbox-item" data-gall="lace-imgs"
-								href="assets/images/home-1/gallery-6.jpg"><img src="assets/images/home-1/gallery-6.jpg"
+								href="assets/images/Suite Room/DSC_4768 Small.jpeg"><img src="assets/images/Suite Room/DSC_4768 Small.jpeg"
 									alt=""></a>
 						</div>
 					</div>
