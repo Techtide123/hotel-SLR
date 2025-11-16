@@ -40,6 +40,37 @@
 	<link rel="stylesheet" href="assets/css/scrollCue.css" type="text/css" media="all">
 	<!-- modernizr js -->
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+	<!-- Venobox overlay cancel button styles (shown when image is zoomed) -->
+	<style>
+	/* Cancel button inside the venobox overlay */
+	.vbox-overlay .vbox-cancel {
+		position: absolute;
+		top: 12px;
+		right: 12px;
+		z-index: 9999;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		border: none;
+		background: rgba(0,0,0,0.55);
+		color: #fff;
+		font-size: 22px;
+		line-height: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+
+	.vbox-overlay .vbox-cancel:focus {
+		outline: 2px solid rgba(255,255,255,0.6);
+		outline-offset: 2px;
+	}
+
+	/* Slight dimming feedback when cancel is triggered */
+	.vbox-overlay.cancelled .vbox-container { opacity: 0.6; }
+	</style>
 </head>
 
 <body>
@@ -106,7 +137,7 @@
 					<a href="assets/images/iner/DSC_4710 Large.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4710 Large.jpeg" class="img-fluid hover-scale-1-2"
@@ -119,7 +150,7 @@
 					<a href="assets/images/iner/DSC_4711 Large.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4711 Large.jpeg" class="img-fluid hover-scale-1-2"
@@ -132,7 +163,7 @@
 					<a href="assets/images/iner/DSC_4752 Large.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4752 Large.jpeg" class="img-fluid hover-scale-1-2"
@@ -145,7 +176,7 @@
 					<a href="assets/images/iner/DSC_4716 Medium.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4716 Medium.jpeg" class="img-fluid hover-scale-1-2"
@@ -157,7 +188,7 @@
 					<a href="assets/images/iner/DSC_4719.JPG" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4719.JPG" class="img-fluid hover-scale-1-2"
@@ -169,7 +200,7 @@
 					<a href="assets/images/iner/DSC_4727 Large.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4727 Large.jpeg" class="img-fluid hover-scale-1-2"
@@ -181,7 +212,7 @@
 					<a href="assets/images/iner/DSC_4728.JPG" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4728.JPG" class="img-fluid hover-scale-1-2"
@@ -193,7 +224,7 @@
 					<a href="assets/images/iner/DSC_4730.JPG" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4730.JPG" class="img-fluid hover-scale-1-2"
@@ -205,7 +236,7 @@
 					<a href="assets/images/iner/DSC_4731 Medium.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4731 Medium.jpeg" class="img-fluid hover-scale-1-2"
@@ -217,7 +248,7 @@
 					<a href="assets/images/iner/DSC_4732 Medium.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4732 Medium.jpeg" class="img-fluid hover-scale-1-2"
@@ -230,7 +261,7 @@
 					<a href="assets/images/iner/DSC_4743 Medium.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4743 Medium.jpeg" class="img-fluid hover-scale-1-2"
@@ -242,7 +273,7 @@
 					<a href="assets/images/iner/DSC_4771.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4771.jpeg" class="img-fluid hover-scale-1-2"
@@ -254,7 +285,7 @@
 					<a href="assets/images/Double Deluxe Room/DSC_4732 2 Medium.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/Double Deluxe Room/DSC_4732 2 Medium.jpeg"
@@ -266,7 +297,7 @@
 					<a href="assets/images/Suite Room/DSC_4744 Medium Medium.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/Suite Room/DSC_4744 Medium Medium.jpeg"
@@ -278,7 +309,7 @@
 					<a href="assets/images/Deluxe Room/DSC_4735 Medium Medium.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/Deluxe Room/DSC_4735 Medium Medium.jpeg"
@@ -290,7 +321,7 @@
 					<a href="assets/images/iner/DSC_4737 Medium.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4737 Medium.jpeg" class="img-fluid hover-scale-1-2"
@@ -302,7 +333,7 @@
 					<a href="assets/images/iner/DSC_4760 Large.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4760 Large.jpeg" class="img-fluid hover-scale-1-2"
@@ -315,7 +346,7 @@
 					<a href="assets/images/iner/DSC_4774 Medium.jpeg" class="image-popup d-block hover">
 						<div class="relative overflow-hidden rounded-10">
 							<div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
-								<h4 class="mb-0 hover-scale-in-3">View</h4>
+								<h4 class="mb-0 hover-scale-in-3"> </h4>
 							</div>
 							<div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
 							<img src="assets/images/iner/DSC_4774 Medium.jpeg" class="img-fluid hover-scale-1-2"
@@ -391,6 +422,55 @@
 	<script src="assets/js/jquery.barfiller.js"></script>
 	<!-- barfiller -->
 	<script src="assets/js/scrollCue.min.js"></script>
+
+	<!-- Inject a cancel button into the venobox overlay when it opens -->
+	<script>
+		(function () {
+			document.addEventListener('DOMContentLoaded', function () {
+				// Observe body for the venobox overlay being added
+				var observer = new MutationObserver(function (mutations) {
+					mutations.forEach(function (m) {
+						m.addedNodes && m.addedNodes.forEach(function (node) {
+							if (node.nodeType === 1 && node.classList && node.classList.contains('vbox-overlay')) {
+								addOverlayCancel(node);
+							}
+						});
+					});
+				});
+
+				observer.observe(document.body, { childList: true, subtree: false });
+
+				function addOverlayCancel(overlay) {
+					// avoid adding twice
+					if (overlay.querySelector('.vbox-cancel')) return;
+
+					var btn = document.createElement('button');
+					btn.type = 'button';
+					btn.className = 'vbox-cancel';
+					btn.setAttribute('aria-label', 'Cancel');
+					btn.innerHTML = '\u00D7';
+					overlay.appendChild(btn);
+
+					btn.addEventListener('click', function (ev) {
+						ev.preventDefault();
+						ev.stopPropagation();
+						// Visual feedback: dim container briefly
+						overlay.classList.add('cancelled');
+						setTimeout(function () { overlay.classList.remove('cancelled'); }, 900);
+						// Trigger the venobox close button click if present
+						var closeBtn = overlay.querySelector('.vbox-close');
+						if (closeBtn) {
+							closeBtn.click();
+						} else {
+							// fallback: remove overlay
+							overlay.remove();
+							document.body.classList.remove('vbox-open');
+						}
+					});
+				}
+			});
+		})();
+	</script>
 
 
 

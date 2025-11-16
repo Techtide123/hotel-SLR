@@ -3,7 +3,7 @@ document.write(`<div class="header-area" id="sticky-header">
 			<div class="row align-items-center">
 				<div class="col-lg-3">
 					<div class="header-logo">
-						<a href="index.html"><img src="assets/images/home-1/logo-1.png" alt=""></a>
+						<a href="index.html"><img style="width: 170px;height: 100px;" src="assets/images/home-1/logo.png" alt="Logo"></a>
 					</div>
 				</div>
 				<div class="col-lg-6">
