@@ -35,4 +35,4 @@ document.write(`<div class="mobile-menu-area sticky d-sm-block d-md-block d-lg-n
 				</div>
     </nav>
   </div>
-</div>;`);
+</div>`);
