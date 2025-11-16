@@ -259,7 +259,7 @@ li.sub-menu-style-two:hover ul.sub-menu-two {
    <!--Hotel SLR Hero Area Css-->
 ==================================---*/
 .hero-area {
-  background: url(../images/home-1/hero-bg.jpg);
+  background: url(../images/iner/DSC_4711\ Large.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -269,7 +269,7 @@ li.sub-menu-style-two:hover ul.sub-menu-two {
 }
 
 .hero-area.style-two {
-  background: url(../images/home-1/hero-bg2.jpg);
+  background: url(../images/iner/DSC_4727\ Large.jpeg);
 }
 
 .hotel-rating ul li {
@@ -1092,7 +1092,7 @@ p.section-desc-2 {
 <!--Call Do Action Area-->
 <!-- ===================-->*/
 .row.call-do-action-bg {
-  background: url(../images/home-1/call-do-action-bg.jpg);
+  background: url(../images/iner/call-do-action-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -7064,7 +7064,7 @@ a.dark-logo {
 <!--Start Breadcumb Area-->
 <!-- ========================================-->*/
 .breadcumb-area {
-  background: url(../images/inner/breadcumb.jpg);
+  background: url(../images/breadcumb.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -7169,7 +7169,7 @@ a.dark-logo {
 }
 
 .inner.call-do-action-area .row.call-do-action-bg {
-  background: url(../images/inner/call-do-action.jpg);
+  background: url(../images/iner/call-do-action.jpg);
   margin-top: 0;
   background-repeat: no-repeat;
   padding: 73px 0 66px;

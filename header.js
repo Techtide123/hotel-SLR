@@ -20,6 +20,7 @@ document.write(`<div class="header-area" id="sticky-header">
 								</ul>
 							</li>
 							<li class="menu-item-has-children"><a href="service.html">Service</a>
+							<li><a href="gallery.html">Gallery</a>
 							</li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
@@ -27,7 +28,7 @@ document.write(`<div class="header-area" id="sticky-header">
 				</div>
 				<div class="col-lg-3">
 					<div class="header-button text-right">
-						<a href="find-room.html">Booking Online</a>
+						<a href="booking-form.html">Booking Online</a>
 					</div>
 				</div>
 			</div>

@@ -24,9 +24,15 @@ document.write(`<div class="mobile-menu-area sticky d-sm-block d-md-block d-lg-n
         </li>
         <li class="menu-item-has-children">
           <a href="service.html">Service</a>
+          <a href="gallery.html">Gallery</a>
           <a href="contact.html">Contact</a>
         </li>
       </ul>
+      <div class="col-lg-3">
+					<div class="header-button text-right">
+						<a href="booking-form.html">Booking Online</a>
+					</div>
+				</div>
     </nav>
   </div>
 </div>;`);
