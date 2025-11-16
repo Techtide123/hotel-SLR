@@ -43,33 +43,35 @@
 
 	<!-- Venobox overlay cancel button styles (shown when image is zoomed) -->
 	<style>
-	/* Cancel button inside the venobox overlay */
-	.vbox-overlay .vbox-cancel {
-		position: absolute;
-		top: 12px;
-		right: 12px;
-		z-index: 9999;
-		width: 40px;
-		height: 40px;
-		border-radius: 50%;
-		border: none;
-		background: rgba(0,0,0,0.55);
-		color: #fff;
-		font-size: 22px;
-		line-height: 1;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		cursor: pointer;
-	}
+		/* Cancel button inside the venobox overlay */
+		.vbox-overlay .vbox-cancel {
+			position: absolute;
+			top: 12px;
+			right: 12px;
+			z-index: 9999;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			border: none;
+			background: rgba(0, 0, 0, 0.55);
+			color: #fff;
+			font-size: 22px;
+			line-height: 1;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+		}
 
-	.vbox-overlay .vbox-cancel:focus {
-		outline: 2px solid rgba(255,255,255,0.6);
-		outline-offset: 2px;
-	}
+		.vbox-overlay .vbox-cancel:focus {
+			outline: 2px solid rgba(255, 255, 255, 0.6);
+			outline-offset: 2px;
+		}
 
-	/* Slight dimming feedback when cancel is triggered */
-	.vbox-overlay.cancelled .vbox-container { opacity: 0.6; }
+		/* Slight dimming feedback when cancel is triggered */
+		.vbox-overlay.cancelled .vbox-container {
+			opacity: 0.6;
+		}
 	</style>
 </head>
 
