@@ -12,7 +12,7 @@ document.write(`<div class="footer-area" data-cue="zoomIn">
 							</div>
 							<div class="footer-widget-contact-info">
 								<ul>
-									<li><i class="bi bi-telephone-fill"></i>+91 8117031744</li>
+									<li><i class="bi bi-telephone-fill"></i>+91 93911 33225</li>
 									<li><i class="bi bi-envelope"></i> hotelslrthegrandhaven@gmail.com</li>
 									<li><i class="bi bi-geo-alt-fill"></i>NH-16, Raghunathpur, Shiv Mandir
 										Junction,<br>Berhampur, Ganjam, Odisha</li>
