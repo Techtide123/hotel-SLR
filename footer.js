@@ -73,14 +73,24 @@ document.write(`<div class="footer-area" data-cue="zoomIn">
 	</div>
 	
     
-    <div class="footer-bottom-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="footer-bottom-content">
-						<h4>© 2025, Hotel SLR. All Rights Reserved.</h4>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>`);
+   <div class="footer-bottom-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-bottom-content d-flex justify-content-between align-items-center">
+          <!-- Left side content -->
+          <h4>© 2025, Hotel SLR. All Rights Reserved.</h4>
+
+          <!-- Right side content with "Developed by" and logo -->
+          <div class="powered-by">
+            <a href="http://tripstar.co.in/" target="_blank">
+              <img src="https://tripstar.co.in/assets/my-img/logo.png" alt="Trip Star Logo" style="height: 20px; margin-right: 8px;" />
+              Developed by Trip Star
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`);
