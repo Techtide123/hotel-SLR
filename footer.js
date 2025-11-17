@@ -84,8 +84,8 @@ document.write(`<div class="footer-area" data-cue="zoomIn">
           <!-- Right side content with "Developed by" and logo -->
           <div class="powered-by">
             <a href="http://tripstar.co.in/" target="_blank">
-              <img src="https://tripstar.co.in/assets/my-img/logo.png" alt="Trip Star Logo" style="height: 20px; margin-right: 8px;" />
-              Developed by Trip Star
+            Designed &  Developed by 
+              <img src="https://tripstar.co.in/assets/my-img/logo.png" alt="Trip Star Logo" style="height: 40px;" />
             </a>
           </div>
         </div>
